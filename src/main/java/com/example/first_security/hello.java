@@ -10,11 +10,11 @@ public class hello {
 
     @GetMapping("/")
     public String home(){
-        return "HOME PAGE";
+        return "index.html";
     }
 
     @GetMapping("/hello")
     public String hello(){
-        return "Heelo protected page";
+        return "hello.html";
     }
 }
